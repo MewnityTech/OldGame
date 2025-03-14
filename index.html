@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CYBER COMMANDOS 2.0</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="scanline"></div>
+  <div class="crt"></div>
+  <div class="flicker"></div>
+  
+  <div class="sound-toggle" id="soundToggle">SOUND: ON</div>
+  
+  <audio id="bgMusic" loop>
+    <source src="8-bit-retro-game-music-233964.mp3" type="audio/mpeg">
+  </audio>
+  
+  <div class="container">
+    <header>
+      <h1>CYBER COMMANDOS 2.0</h1>
+      <p class="typewriter">INITIALIZING SECURE CONNECTION...</p>
+      <div class="loading-bar">
+        <div class="progress"></div>
+      </div>
+      <p id="statusText">SYSTEM READY. AWAITING COMMAND.</p>
+    </header>
+    
+    <div class="menu" id="mainMenu">
+      <div class="menu-item" id="startGame">START MISSION</div>
+      <div class="menu-item" id="instructions">INSTRUCTIONS</div>
+      <div class="menu-item" id="credits">CREDITS</div>
+      <div class="menu-item" id="exit">EXIT</div>
+    </div>
+    
+    <div class="game-area" id="gameArea">
+      <div class="player" id="player"></div>
+      <div class="game-over" id="gameOver">MISSION FAILED</div>
+      <div class="score-display">SCORE: <span id="score">0</span></div>
+    </div>
+  </div>
+  
+  <div class="credits">
+    (C) 2025 - RETRO GAMING TECHNOLOGIES
+  </div>
+  
+</body>
+</html>
