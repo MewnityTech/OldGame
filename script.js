@@ -189,7 +189,7 @@ instructionsButton.addEventListener('click', function() {
 });
 
 creditsButton.addEventListener('click', function() {
-  statusText.innerText = "DEVELOPED BY CYBER COMMANDOS TEAM - VERSION 2.0";
+  statusText.innerText = "DEVELOPED BY PROGCRAFTERQ - VERSION 2.0";
   setTimeout(function() {
     statusText.innerText = "SYSTEM READY. AWAITING COMMAND.";
   }, 5000);
