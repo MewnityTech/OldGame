@@ -1,4 +1,4 @@
-// Initialize variables
+// зминни
 let score = 0;
 let isGameRunning = false;
 let gameInterval;
@@ -6,7 +6,7 @@ let enemies = [];
 let playerPosition = 50;
 let soundOn = true;
 
-// Get DOM elements
+// елементы
 const startButton = document.getElementById('startGame');
 const instructionsButton = document.getElementById('instructions');
 const creditsButton = document.getElementById('credits');
