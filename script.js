@@ -46,7 +46,7 @@ function generateRandomText() {
       "SCANNING NETWORK...",
       "FIREWALL BYPASSED.",
       "SYSTEM SECURE.",
-      "CHECKING PROTOCOLS...",
+      "CHECKING PROTOCOLЫ...",
       "DATA STREAM ACTIVE.",
       "MISSION PARAMETERS LOADED.",
       "AWAITING DEPLOYMENT...",
@@ -189,7 +189,7 @@ instructionsButton.addEventListener('click', function() {
 });
 
 creditsButton.addEventListener('click', function() {
-  statusText.innerText = "DEVELOPED BY PROGCRAFTERQ - VERSION 2.0";
+  statusText.innerText = "DEVELOPED BY MewnityTech - VERSION 2.0";
   setTimeout(function() {
     statusText.innerText = "SYSTEM READY. AWAITING COMMAND.";
   }, 5000);
